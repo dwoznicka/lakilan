@@ -1,82 +1,114 @@
-<!DOCTYPE html>
-<html lang="pl">
-    <head>
-        <base href="http://lakilan.pl/">
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-        <title>Łąki Łan | Oficjalna strona internetowa zespołu Łąki Łan</title>
-        <meta name="description" content="Oficjalna strona internetowa zespołu Łąki Łan | Laki Lan | Official Website" />
-        <meta name="copyright" content="2024 © Łąki Łan. Wszelkie prawa zastrzeżone."/>
-        <meta name="keywords" content="ŁąkiŁan,LakiLan,łąki,łan,laki,lan,muzyka,polska,funk,rock,punk,lass,raut,bonk,cokictokloc">
-        <meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="http://lakilan.pl/apple-touch-icon.png">
+layout: base
+---
 
-<link rel="apple-touch-icon" sizes="180x180" href="http://lakilan.pl/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://lakilan.pl/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="http://lakilan.pl/favicon-16x16.png">
-<link rel="manifest" href="http://lakilan.pl/site.webmanifest">
-<meta name="theme-color" content="#ffffff">
+<div class="home-section hidden">
+  <div class="home-image-section ">
+    <div class="home-image-container">
+      <img src="{{ 'assets/images/lakilan1.jpg' | asset_path | absolute_url}}" alt="Łąki Łan" title="Łąki Łan 2024">
+    </div>
+  </div>
+  <div class="home-media">
+    <ul class="home-mediaList">
+      <li class="home-mediaList-item">
+        <button class="home-mediaList-link" data-toggle="modal" data-target="#listen">muzyka</button>
+      </li>
+      <li class="home-mediaList-item">
+        <button class="home-mediaList-link" id="triggerVideos" data-toggle="modal" data-target="#video">teledyski</button>
+      </li>
+      <li class="home-mediaList-item">
+        <a class="home-mediaList-link" target="_blank" href="/koncerty/">koncerty</a>
+      </li>
+      <li class="home-mediaList-item">
+        <button class="home-mediaList-link" data-toggle="modal" data-target="#contact">kontakt</button>
+      </li>
+    </ul>
+  </div>
+</div>
 
-        <meta property="og:title" content="Łąki Łan">
-<meta property="og:description" content=" Oficjalna strona internetowa zespołu Łąki Łan ">
+<div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="contactLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="contactLabel">kontakt</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
 
+          <div class="modal-body contact-body">
+            <p style="text-align:center;">
+              <a href="https://www.facebook.com/artgrupa1999/" target="_blank"><b> ARTGRUPA </b></a><br/><br/>
+              <u>management & booking</u> <br/>
+              <i>Justyna Dominik</i><br/>
+              <span><a href="mailto:justynak@artgrupa.net">justynak@artgrupa.net</a></span><br/><br/>
+              
+              <u>management & booking</u> <br/>
+              <i>Krzysztof Dominik</i><br/>
+              <span><a href="mailto:krzysztof.dominik@artgrupa.net">krzysztof.dominik@artgrupa.net</a></span><br/><br/>
+            </p>
+          </div>
+      </div>
+  </div>
+</div>
 
-<meta property="og:image" content="http://lakilan.pl/apple-touch-icon.png">
+<div class="modal fade" id="listen" tabindex="-1" role="dialog" aria-labelledby="listenLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="listenLabel"> albumy </h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
 
+          <div class="modal-body" style="padding: 20px;">
+            <p style="text-align:center;">
+              <a class="listen-link" href="https://open.spotify.com/album/1SItjIR4zk5OHf6v5UKeBt?si=nS-7o3QaSGafxN8Pok8K0Q" target="blank">RAUT (2019)</a><br/>
+              <a class="listen-link" href="https://open.spotify.com/album/67x8nMbnmsYrOiSs92AMSH?si=3RBbuZgaRsaMaaVPEsQPWg" target="_blank">Syntonia (2016)</a><br/>
+              <a class="listen-link" href="https://open.spotify.com/album/14TPUKhqDmuhm9YxYFxPuo?si=u2jHm9ONRW-NAv5tlzs56Q" target="_blank">Armanda (2012)</a><br/>
+              <a class="listen-link" href="https://open.spotify.com/album/1kLvx8gneNXLiRB07TAUqW?si=_smuCQqgS5-ejWy4NJxKAA" target="_blank">Łąkiłanda (2009)</a>
+            </p>
+          </div>
+      </div>
+  </div>
+</div>
 
-<meta property="og:image:width" content="600">
-<meta property="og:image:height" content="600">
-<meta property="og:url" content="http://lakilan.pl/">
-<meta property="og:site_name" content="">
-<meta name="twitter:card" content="summary_large_image">
-<meta property="twitter:image" content="http://lakilan.pl/apple-touch-icon.png">
-<meta name="twitter:title" content="Łąki Łan">
-<meta name="twitter:description" content="Oficjalna strona internetowa zespołu Łąki Łan">
-<meta name="twitter:url" content="http://lakilan.pl/">
+<div class="modal fade" id="video" tabindex="-1" role="dialog" aria-labelledby="videoLabel" aria-hidden="true">
+  <div class="modal-dialog video-dialog" id="videoDialog" role="document">
+      <div class="modal-content">
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="http://lakilan.pl/styles.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <meta name="google-site-verification" content="TDkCrwSDmYzK-JiAUMUhUF_Hq8E3ANgi1R0CsfTsdhc" />
-        <meta http-equiv="Content-Security-Policy" content="default-src *; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'; img-src * data: 'unsafe-inline'; connect-src * 'unsafe-inline'; frame-src *;">
-      </head>
-    <body class="base ">
-        <div class="home-container container-fluid">
-                <div class="row">
-                        <div class="col-sm-12 col-md-3"></div>
-                        <div class="col-sm-12 col-md-6">
-                                <p style="text-align:center;">
-                                        <br/><br/>
-                                        <u>MANAGEMENT & BOOKING</u> <br/>
-                                        <i>JUSTYNA DOMINIK</i><br/>
-                                        <span><a class="listen-link listen-link-small" href="#">JUSTYNA@ARTGRUPA.NET</a></span><br/><br/>
-                                        
-                                        <u>MANAGEMENT & BOOKING</u> <br/>
-                                        <i>KRZYSZTOF DOMINIK</i><br/>
-                                        <span><a class="listen-link listen-link-small" href="#">KRZYSZTOF.DOMINIK@ARTGRUPA.NET</a></span><br/><br/>
-                                </p>
-                                <p style="text-align:center;">
-                                        <ul class="mediaList">
-                                                <li class="mediaList-item">
-                                                        <a class="listen-link" target="_blank" href="https://www.instagram.com/laki_lan/"><i class="fab fa-instagram"></i></i></a>
-                                                </li>
-                                                <li class="mediaList-item">
-                                                        <a class="listen-link" target="_blank" href="https://www.facebook.com/lakilan/"><i class="fab fa-facebook"></i></i></a>
-                                                </li>
-                                        </ul>
-                                </p>
-                        </div>
-                        <div class="col-sm-12 col-md-3"></div>
+          <div class="modal-body videoGallery">
+            {% assign videos = site.data.videos | sort:"position" %}
+
+            {% for video in videos %}
+                <div class="music-video-container">
+                  <iframe id="iframe{{ video.position }}" class="videoIframe" src="{{ video.url }}?enablejsapi=1&version=3&playerapiid=ytplayer" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen allowscriptaccess="always"  style="z-index: 100; width: 82vw; max-width: 880px; height: 65vh; max-height: 1200px;"></iframe>  
+                <p>{{video.title}}</p>
                 </div>
-        </div>
-    </body>
-</html>
+
+            {% endfor %}
+          </div>
+          <ul style="list-style: none; padding: 0;">
+            <li class="prev" onClick="stopYoutube();"></li>
+            <li class="next" onClick="stopYoutube();"></li>
+        </ul>
+      </div>
+  </div>
+</div>
+
+<footer class="">
+  <div class="footer-media">
+    <ul class="footer-mediaList">
+      <li class="footer-mediaList-item">
+        <a class="footer-mediaList-link" target="_blank" href="https://www.instagram.com/laki_lan/"><i class="fab fa-instagram"></i></a>
+      </li>
+      <li class="footer-mediaList-item">
+        <a class="footer-mediaList-link" target="_blank" href="https://www.facebook.com/lakilan/"><i class="fab fa-facebook-square"></i></a>
+      </li>
+    </ul>
+  </div>
+</footer>

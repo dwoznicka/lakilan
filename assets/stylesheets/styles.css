@@ -1,0 +1,40 @@
+/* // $brand-white: #ffffff;
+// $brand-black: #262626;
+// $brand-peach: #ffbe98;
+// $brand-lilac: #9b8e9c;
+// $brand-beige: #f0e2d2;
+
+// $screen-xs: 480px;
+// $screen-xs-min: $screen-xs;
+// $screen-sm: 768px;
+// $screen-sm-min: $screen-sm;
+// $screen-md: 1001px;
+// $screen-md-min: $screen-md;
+// $screen-lg: 1200px;
+// $screen-lg-min: $screen-lg;
+// $screen-xl: 1440px;
+// $screen-xl-min: $screen-xl;
+
+// $screen-xs-max: ($screen-sm-min - 1);
+// $screen-sm-max: ($screen-md-min - 1);
+// $screen-md-max: ($screen-lg-min - 1);
+// $screen-lg-max: ($screen-xl-min - 1); */
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  margin: 0; padding: 0;
+}
+
+body {
+  background-color: #fff;
+}
+
+body,
+body * {
+  color: #000;
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+}
