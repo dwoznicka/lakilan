@@ -1,0 +1,53 @@
+- url: 'https://www.facebook.com/events/1596493264494629/'
+  city: Kraków
+  venue: Santander Letnie Brzmienia
+  date: '05.07.2024'
+  position: 1
+
+- url: 'https://www.facebook.com/events/1097623994886242/'
+  city: Wrocław
+  venue: Santander Letnie Brzmienia
+  date: '12.07.2024'
+  position: 2
+
+- url: 'https://www.facebook.com/events/1527455228012972/'
+  city: Kazimierz Dolny
+  venue: Kazimiernikejszyn
+  date: '19.07.2024'
+  position: 3
+
+- url: 'https://www.facebook.com/events/774769990703881/'
+  city: Katowice
+  venue: Santander Letnie Brzmienia
+  date: '26.07.2024'
+  position: 4
+
+- url: 'https://www.facebook.com/events/436046688849318/'
+  city: Warszawa
+  venue: Santander Letnie Brzmienia
+  date: '09.08.2024'
+  position: 5
+
+- url: 'https://www.facebook.com/events/943683407162222/'
+  city: Łódź
+  venue: Santander Letnie Brzmienia
+  date: '16.08.2024'
+  position: 6
+
+- url: 'https://www.facebook.com/ActiveFestivalOlecko'
+  city: Olecko
+  venue: Active Festival
+  date: '17.08.2024'
+  position: 7
+
+- url: 'https://www.facebook.com/events/933891088272822/'
+  city: Poznań
+  venue: Santander Letnie Brzmienia
+  date: '30.08.2024'
+  position: 8
+
+- url: 'https://www.facebook.com/events/419137897780362/'
+  city: Białystok
+  venue: Dla Ciebie. Festiwal
+  date: '06.09.2024'
+  position: 9

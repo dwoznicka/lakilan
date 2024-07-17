@@ -1,0 +1,30 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: base
+body_class: sky
+---
+
+<div class="tour-container">
+  <div class="tour-image-container">
+    <img src="{{ 'assets/images/lakilan2.jpg' | asset_path | absolute_url}}" alt="Łąki Łan" title="Łąki Łan 2024">
+  </div>
+  <div class="tour-list-container">
+    <h1> Łąki Łan 2024 </h1>
+    <ul class="tour-list">
+      {% assign dates = site.data.tourdates | sort:"position" %}
+
+      {% for date in dates %}
+      <li class="tour-list-item">
+        <a class="tour-list-link" target="_blank" href="{{ date.url }}">
+          <span>{{ date.date }}</span>
+          <span class="city">{{ date.city }}</span>
+          <span class="venue">{{ date.venue }}</span>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+</div>
