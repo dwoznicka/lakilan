@@ -1,9 +1,9 @@
 title: Łąki Łan
 name: Oficjalna strona www zespołu Łąki Łan | koncerty, muzyka, booking, kontakt
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://localhost:4000" # development
+# url: "http://localhost:4000" # development
 # url: "https://lakilan.pl" # production
-# url: "https://dwoznicka.github.io/lakilan" # github pages
+url: "https://dwoznicka.github.io/lakilan" # github pages
 
 copyright: 2024 © <a href="https://lakilan.pl" class="site-link">Łąki Łan</a>. Wszelkie prawa zastrzeżone.
 copyright_short: 2024 © <a href="https://lakilan.pl" class="site-link">Łąki Łan</a>.
