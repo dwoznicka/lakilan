@@ -3,7 +3,7 @@
 // $brand-background: #dee8f0;
 // $brand-orange: #ff4e00;
 // $brand-purple: #630bb7;
-// $brand-bluesky: #c3cbda;
+// $brand-bluesky: #b1b7c7;
 
 // $screen-xs: 480px;
 // $screen-xs-min: $screen-xs;
@@ -52,8 +52,13 @@ body {
 }
 
 body.sky {
-  background-color: #c3cbda;
-  background-image: none;
+  background-image: url('/assets/images/lakilan2.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-blend-mode: hue;
+  background-color: #b1b7c7;
 }
 
 .home-section {
@@ -297,7 +302,6 @@ body.sky {
   color: #fff; 
   background: transparent;
   transition: 0.4s all ease-in;
-  text-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
 }
 
 .listen-link:hover {
@@ -331,7 +335,7 @@ body.sky {
 }
 
 .tour-image-container img {
-  width: 50vw;
+  width: 55vw;
   height: 100vh;
   object-fit: cover;
   object-position: center center;
@@ -341,21 +345,22 @@ body.sky {
 
   @media (max-width: 1001px) {
     width: 100vw;
-    height: 50vh;
+    height: 40vh;
+    position: absolute;
   }
 }
 
 .tour-list-container {
-  position: fixed;
+  position: absolute;
   top: 0;
-  left: 50vw;
-  width: 50vw;
+  left: 56vw;
+  width: 44vw;
   height: 100vh;
 
   @media (max-width: 1001px) {
     width: 100vw;
-    height: 50vh;
-    top: 45vh;
+    height: auto;
+    top: 40vh;
     position: absolute;
     left: 0;
   }
@@ -366,7 +371,7 @@ body.sky {
     text-transform: uppercase;
     font-weight: bold;
     color: #fff;
-    text-shadow: 0px 0px 20px rgba(99, 11, 183, 1);
+    text-shadow: 6px 5px 10px rgba(0, 0, 0, 0.1);
     transition: 0.2s all ease-in;
 
     span {
@@ -401,11 +406,11 @@ body.sky {
     text-transform: uppercase;
     font-weight: bold;
     color: #fff;
-    text-shadow: 0px 0px 20px rgba(99, 11, 183, 1);
-    padding: 40px;
+    padding: 25px 40px;
+    text-shadow: 6px 5px 10px rgba(0, 0, 0, 0.1);
 
     @media (max-width: 1001px) {
-      padding: 10px;
+      padding: 20px 10px;
       font-size: 1.5rem;
     }
   }
@@ -417,7 +422,11 @@ body.sky {
   li {
     display: block;
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
+
+    @media (max-width: 1001px) {
+      margin-bottom: 12px;
+    }
   }
 
   @media (max-width: 1001px) {
