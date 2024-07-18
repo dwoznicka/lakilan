@@ -41,7 +41,7 @@ body * {
 }
 
 body {
-  background-image: url('/assets/images/background.png');
+  background-image: url('https://dwoznicka.github.io/lakilan/assets/images/background.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -52,7 +52,7 @@ body {
 }
 
 body.sky {
-  background-image: url('/assets/images/lakilan2.jpg');
+  background-image: url('https://dwoznicka.github.io/lakilan/assets/images/lakilan2.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
