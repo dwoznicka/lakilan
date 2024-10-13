@@ -1,31 +1,35 @@
-- url: 'https://www.youtube.com/embed/HBXcIZmwiWw'
-  title: 'Łąki Łan - Jammin'
+- url: 'https://www.youtube.com/embed/IioVl3mHiDU'
+  title: 'Łąki Łan - Ona sama'
   position: 0
 
-- url: 'https://www.youtube.com/embed/-fGoW73hLLg'
-  title: 'Łąki Łan - Pola Ar'
+- url: 'https://www.youtube.com/embed/S-Ww4ItckKk'
+  title: 'Łąki Łan - Ogień'
   position: 1
 
-- url: 'https://www.youtube.com/embed/JVnxBrMsh8I'
-  title: 'Łąki Łan - LASS'
+- url: 'https://www.youtube.com/embed/-D4BlWL5ZQo'
+  title: 'Łąki Łan - Lass (Nowa Tonacja)'
   position: 2
 
-- url: 'https://www.youtube.com/embed/buVazED8pEU'
-  title: 'Łąki Łan - Łan Pała'
+- url: 'https://www.youtube.com/embed/-fGoW73hLLg'
+  title: 'Łąki Łan - Pola ar'
   position: 3
 
 - url: 'https://www.youtube.com/embed/2nQr22bea-s'
   title: 'Łąki Łan - Bombaj'
   position: 4
 
-- url: 'https://www.youtube.com/embed/u8dNmGmdvBw'
-  title: 'Łąki Łan - Lovelock'
+- url: 'https://www.youtube.com/embed/buVazED8pEU'
+  title: 'Łąki Łan - Łan Pała'
   position: 5
 
-- url: 'https://www.youtube.com/embed/atezXbZqH34'
-  title: 'Łąki Łan - Mucha nie siada'
+- url: 'https://www.youtube.com/embed/RyS1or88lXE'
+  title: 'Łąki Łan - Jammin (Made In Polska)'
   position: 6
 
-- url: 'https://www.youtube.com/embed/a4NST6Pz7uc'
-  title: 'Łąki Łan - Tańcz'
+- url: 'https://www.youtube.com/embed/PG_PAVgXEAo'
+  title: 'Łąki Łan - Koncert (Czwórka)'
   position: 7
+
+- url: 'https://www.youtube.com/embed/VjZL5wgYg3Q'
+  title: 'Łąki Łan - Jammin (Przystanek Woodstock)'
+  position: 8
