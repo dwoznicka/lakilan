@@ -41,7 +41,7 @@ body * {
 }
 
 body {
-  background-image: url('https://dwoznicka.github.io/lakilan/assets/images/background.png');
+  background-image: url('https://lakilan.pl/assets/images/background.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -52,13 +52,12 @@ body {
 }
 
 body.sky {
-  background-image: url('https://dwoznicka.github.io/lakilan/assets/images/lakilan2.jpg');
+  background-color: #b1b7c7;
+  background-image: url('https://lakilan.pl/assets/images/hue-lakilan2.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-blend-mode: hue;
-  background-color: #b1b7c7;
 }
 
 .home-section {
