@@ -5,8 +5,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://lakilan.pl" # production
 url: "https://dwoznicka.github.io/lakilan" # github pages
 
-copyright: 2024 © <a href="https://lakilan.pl" class="site-link">Łąki Łan</a>. Wszelkie prawa zastrzeżone.
-copyright_short: 2024 © <a href="https://lakilan.pl" class="site-link">Łąki Łan</a>.
+copyright: 2025 © <a href="https://lakilan.pl" class="site-link">Łąki Łan</a>. Wszelkie prawa zastrzeżone.
+copyright_short: 2025 © <a href="https://lakilan.pl" class="site-link">Łąki Łan</a>.
 made_by: 'Made with ❤ by <a href="https://www.facebook.com/Daria.Woznicka/" target="_blank">DW</a>'
 # Build settings
 markdown: kramdown
