@@ -1,47 +1,65 @@
-- url: 'https://www.facebook.com/events/1053768629281459/'
-  city: Łódź
-  venue: Wytwórnia
-  date: '07.02.2025'
+- url: 'https://www.mokis.info/'
+  city: Oleśnica
+  venue: Dni Miasta
+  date: '31.05.2025'
   position: 0
 
-- url: 'https://www.facebook.com/events/9020229801369510/'
-  city: Białystok
-  venue: Zmiana Klimatu
-  date: '14.02.2025'
+- url: 'https://www.facebook.com/events/1014251203375330/'
+  city: Łask
+  venue: Jarmark Łaski
+  date: '07.06.2025'
   position: 1
 
-- url: 'https://www.facebook.com/events/503585165887403/'
-  city: Kraków
-  venue: Kwadrat
-  date: '22.02.2025'
+- url: 'https://www.facebook.com/events/1429829741731747/'
+  city: Ruchna
+  venue: Folwark Ruchenka
+  date: '13.06.2025'
   position: 2
 
-- url: 'https://www.facebook.com/events/1107699050987704'
-  city: Zielona Góra
-  venue: Kawon
-  date: '28.02.2025'
+- url: 'https://www.facebook.com/events/1595365014445855/'
+  city: Połczyn
+  venue: Połczyn Fest
+  date: '11.07.2025'
   position: 3
 
-- url: 'https://www.facebook.com/events/754896273468380'
+- url: 'https://www.facebook.com/events/1372636324143003/'
   city: Poznań
-  venue: Tama
-  date: '01.03.2025'
+  venue: Męskie Granie
+  date: '12.07.2025'
   position: 4
 
-- url: 'https://www.facebook.com/events/1790878238327711/'
-  city: Gomunice
-  venue: Bogart
-  date: '07.03.2025'
+- url: 'https://www.facebook.com/events/1171193980824767/'
+  city: Radotki
+  venue: Wibracje Festival
+  date: '18.07.2025'
   position: 5
 
-- url: 'https://www.facebook.com/events/850870303721071/'
-  city: Szczyrk
-  venue: SnowFest
-  date: '08.03.2025'
+- url: 'https://www.facebook.com/NMNZ.Festiwal/'
+  city: Wodzisław Śl.
+  venue: Festiwal NMNZ
+  date: '19.07.2025'
   position: 6
 
-- url: 'https://www.facebook.com/events/1187918535650806/'
-  city: Francja / Serre Chevaliere
-  venue: Sound Project
-  date: '14-23.03.2025'
+- url: 'https://www.facebook.com/events/576756102091856/'
+  city: Ełk
+  venue: Ełcki Festiwal Literatury i Muzyki
+  date: '25.07.2025'
   position: 7
+
+- url: 'https://www.facebook.com/events/517759511313531/'
+  city: Wyszków
+  venue: Bug Nature Festival
+  date: '26.07.2025'
+  position: 8
+
+- url: 'https://www.facebook.com/events/1534215837490326/'
+  city: Olsztyn
+  venue: Olsztyn Green Festival
+  date: '15-17.08.2025'
+  position: 9
+
+- url: 'https://www.facebook.com/events/3706351259511680/'
+  city: Warszawa
+  venue: Męskie Granie
+  date: '22.08.2025'
+  position: 10

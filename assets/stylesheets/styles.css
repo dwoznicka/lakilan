@@ -391,6 +391,9 @@ body.sky {
 
     @media (max-width: 1001px) {
       font-size: 0.8rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
     }
   }
 
